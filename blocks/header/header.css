@@ -4,15 +4,16 @@
   padding-top: 45px;
   border-bottom: 1px solid #545454;
 }
+
 @media screen and (max-width: 900px) {
   .header {
     width: 582px;
   }
-  
 }
+
 @media screen and (max-width: 600px) {
   .header {
-  width: 320px;
-  height: 56px;
+    width: 320px;
+    height: 56px;
   }
 }

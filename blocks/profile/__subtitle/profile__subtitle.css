@@ -1,21 +1,21 @@
 .profile__subtitle {
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 10px 0 0 31px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 10px 0 0 31px;
 }
 
 @media screen and (max-width: 600px) {
-    .profile__subtitle {
-        grid-row: 2/3;
-        grid-column: 1/5;
-        margin-left: 0;
-        align-self: center;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-    }
+  .profile__subtitle {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    margin-left: 0;
+    align-self: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+  }
 }

@@ -1,6 +1,6 @@
 .header__wrapper {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    border-bottom: 1px solid #545454;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #545454;
 }
