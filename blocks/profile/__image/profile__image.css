@@ -1,0 +1,15 @@
+.profile__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    object-fit: cover;
+    justify-self: center;
+    margin-left: 0;
+}
+@media screen and (max-width: 600px) {
+    .profile__image {
+        grid-row: 1/2;
+        grid-column: 1/5;
+    }
+}

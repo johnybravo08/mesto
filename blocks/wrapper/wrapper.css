@@ -1,0 +1,30 @@
+.wrapper {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Inter;
+    z-index: 1;
+}
+.grid {
+    width: 320px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.block:nth-child(1) {
+ background-color: gold;
+}
+.block:nth-child(2) {
+background-color: brown;
+}
+.block:nth-child(3) {
+background-color:white;
+}
+.block:nth-child(4) {
+background-color: cyan;
+}
+.profile__text_edit {
+    display: flex;
+}

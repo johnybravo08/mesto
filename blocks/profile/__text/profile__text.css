@@ -1,0 +1,9 @@
+.profile__text {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+    .profile__text {
+        grid-row: 2/3;
+    }
+}

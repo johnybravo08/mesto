@@ -1,0 +1,10 @@
+.album__like {
+    width: 1,375em;
+    height: 19px;
+    margin-right: 4px;
+}
+
+.album__like:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
