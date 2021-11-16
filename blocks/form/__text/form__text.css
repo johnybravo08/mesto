@@ -1,19 +1,29 @@
 .form__text {
   border: 0;
-  opacity: 0.2;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);;
   width: 358px;
   margin: 30px auto 0 auto;
   box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 11px;
 }
 
 @media screen and (max-width: 600px) {
   .form__text {
     width: 238px;
-    margin: 70px auto 0 auto;
   }
-
+  .form__text:nth-child(4) {
+    margin-top: 28px;
+  }
   .form__text:nth-child(3) {
-    margin: 30px auto 0 auto;
+    margin-top: 73px;
   }
+}
+
+.form__text:nth-child(3) {
+  margin-top: 33px;
 }

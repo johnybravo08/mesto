@@ -8,6 +8,8 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  background-color: black;
+  transition: 0.5s ease-in;
 }
 
 .profile__editing:hover {
@@ -22,6 +24,5 @@
     height: 18px;
     margin-top: 34px;
     margin-left: 10px;
-    box-sizing: border-box;
   }
 }
