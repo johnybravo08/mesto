@@ -16,3 +16,6 @@
     right: 0px;
   }
 }
+.popup__close:hover {
+  cursor: pointer;
+}
