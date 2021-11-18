@@ -25,7 +25,6 @@
 @import url(../blocks/album/__text/album__text.css);
 @import url(../blocks/album/__title/album__title.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/popup/__body/popup__body.css);
 @import url(../blocks/popup/__content/popup__content.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/_opened/popup_opened.css);

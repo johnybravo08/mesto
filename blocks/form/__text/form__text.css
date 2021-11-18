@@ -11,6 +11,9 @@
   color: #000000;
   padding-bottom: 11px;
 }
+.form__text:nth-child(3) {
+  margin-top: 36px;
+}
 
 @media screen and (max-width: 600px) {
   .form__text {
@@ -20,10 +23,8 @@
     margin-top: 28px;
   }
   .form__text:nth-child(3) {
-    margin-top: 73px;
+    margin-top: 33px;
   }
 }
 
-.form__text:nth-child(3) {
-  margin-top: 33px;
-}
+
